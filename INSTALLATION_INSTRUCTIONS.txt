@@ -1,0 +1,67 @@
+HOW TO TEST THIS EXTENSION
+
+FOR MICROSOFT EDGE:
+
+Open Edge browser.
+
+Go to: edge://extensions/
+
+Enable "Developer mode" (toggle in the bottom-left corner).
+
+Click "Load unpacked".
+
+Select the folder containing these files (manifest.json, popup.html, etc.).
+
+You should see "Extension Test - Can I Install?" appear in your list of extensions.
+
+Click the puzzle piece icon in the browser toolbar.
+
+Click on "Extension Test - Can I Install?".
+
+If you see a green "SUCCESS!" message, it means extensions work in your environment!
+
+FOR GOOGLE CHROME:
+
+Open Chrome browser.
+
+Go to: chrome://extensions/
+
+Enable "Developer mode" (toggle in the top-right corner).
+
+Click "Load unpacked".
+
+Select the folder containing these files.
+
+You should see "Extension Test - Can I Install?" appear.
+
+Click the puzzle piece icon in the browser toolbar.
+
+Click on "Extension Test - Can I Install?".
+
+If you see a green "SUCCESS!" message, it means extensions work in your environment!
+
+TROUBLESHOOTING:
+
+If you get an error about icons:
+
+Make sure you have icon16.png, icon48.png, and icon128.png in the same folder.
+
+The icons can be any simple PNG images.
+
+If the extension doesn't appear:
+
+Check that all files are in the same folder.
+
+Ensure manifest.json is named exactly that (not manifest.json.txt).
+
+Try refreshing the extensions page.
+
+NEXT STEPS:
+
+If it works:
+
+Report back that extensions are allowed. We can then proceed with converting the full CA IM Form Filler tool to a more powerful and user-friendly extension.
+
+If it doesn't work:
+
+This indicates your environment blocks local extension installation. We will stick with the bookmarklet approach instead.
